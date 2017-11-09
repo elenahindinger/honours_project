@@ -1,0 +1,74 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[a4paper, total={6in,9in}, top=0.8in, bottom=0.8in, right=0.8in, left=1in, includefoot]{geometry}
+\usepackage{graphicx}
+\graphicspath{ {/Users/elenahindinger/Documents/FINALYEAR/HonoursProject/images/} }
+\usepackage{tabularx}
+\usepackage{apalike}
+\bibliographystyle{cell}
+\setlength{\parindent}{8em}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{titling}
+\usepackage{array}
+\usepackage{chngcntr}
+%\usepackage{hyperref}
+\counterwithout{figure}{section}
+\counterwithout{equation}{section}
+\usepackage{caption, setspace}
+\captionsetup{font={small, stretch=1.0}}
+\renewcommand{\baselinestretch}{1.5}
+% set up \maketitle to accept a new item
+\pretitle{\begin{center}\placetitlepicture\vspace{10mm}\LARGE}
+\posttitle{\par\end{center}\vspace{5mm}}
+
+% commands for including the picture
+\newcommand{\titlepicture}[2][]{%
+  \renewcommand\placetitlepicture{%
+    \includegraphics[#1]{#2}\par\medskip
+  }%
+}
+\newcommand{\placetitlepicture}{} % initialization
+% starting document here
+\begin{document}
+% making title page here
+\begin{titlepage}
+\titlepicture[scale=0.7]{uog_logo}
+\title{The application of laser speckle contrast imaging in the field of neural control of breathing.}
+\author{Student Number 2092098}
+\date{17 January 2018}
+\maketitle
+\thispagestyle{empty}
+\begin{center}
+\textbf{School of Medical, Veterinary and Life Sciences}\\
+MSci Neuroscience\\
+BIOL5287P Investigative MSci Project\\
+\vspace{5mm}
+\textbf{Supervised by}\\
+Dr Leanne McKay\\
+Research Institute of Neuroscience and Psychology\\
+\vspace{5mm}
+Word Count: 5999
+\end{center}
+\end{titlepage}
+\newpage 
+\tableofcontents
+\hspace{20mm}
+\addcontentsline{toc}{section}{Abstract}
+\section*{Abstract}
+This will be a lovely abstract of 200 - 300 words.
+\addcontentsline{toc}{section}{Abbreviations}
+\section*{Abbreviations}
+CBF, cerebral blood flow; LSCI, laser speckle contrast imaging
+\section{Introduction}
+% start page counting here !!!!
+LSCI is cool \cite{Ayata}
+\section{Methods}
+\section{Results}
+\section{Discussion}
+\section{Conclusion}
+\addcontentsline{toc}{section}{References}
+\bibliography{Honours_Project_Bibliography}
+\end{document}

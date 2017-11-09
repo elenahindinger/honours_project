@@ -1,0 +1,9 @@
+\select@language {english}
+\contentsline {section}{Abstract}{1}
+\contentsline {section}{Abbreviations}{1}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Methods}{2}
+\contentsline {section}{\numberline {3}Results}{2}
+\contentsline {section}{\numberline {4}Discussion}{2}
+\contentsline {section}{\numberline {5}Conclusion}{2}
+\contentsline {section}{References}{2}
